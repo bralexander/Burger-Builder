@@ -23,6 +23,7 @@ if (transformedIngredients.length === 0) {
             <BurgerIngredient  type="bread-top"/>
             {transformedIngredients}
             <BurgerIngredient  type="bread-bottom"/>
+
         </div>
     );
 };
