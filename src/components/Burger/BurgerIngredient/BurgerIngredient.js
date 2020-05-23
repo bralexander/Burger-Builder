@@ -38,6 +38,7 @@ const burgerIngredient = (props) => {
             break;
         };
 
+        //propTypes validator, only allows string as input
         burgerIngredient.propTypes = {
             type: PropTypes.string.isRequired,
             };

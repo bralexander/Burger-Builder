@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 
-import Aux from '../../hoc/Auxiliary';
+import Aux from '../../hoc/Auxiliary/Auxiliary';
 import Burger from '../../components/Burger/Burger';
 import BuildControls from '../../components/Burger/BuildControls/BuildControls';
 import  Modal  from '../../components/UI/Modal/Modal';
 import OrderSummary from '../../components/Burger/OrderSummary/OrderSummary';
-import ModalPay from '../../components/UI/Modal/ModalPay'
-import Checkout from '../../components/Burger/Checkout/Checkout'
+import ModalPay from '../../components/UI/Modal/ModalPay';
+import Checkout from '../../components/Burger/Checkout/Checkout';
+
 
 //GLOBAL VAR ALL CAPS
 const INGREDIENT_PRICES ={
